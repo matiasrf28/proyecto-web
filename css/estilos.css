@@ -1,0 +1,248 @@
+
+/* Generico */
+* {margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+/* Home */
+ 
+.encabezadoHome{
+    display: grid;
+    background-color: black;
+    width: 100%; ;
+    
+    
+    
+}
+.logo{
+    display: flex;
+    width:100 ;
+    margin-left: 10px;
+    height: 100px;
+    
+    
+}
+.tituloAvenida {
+    display:flex;
+    
+    width: 100;
+    margin: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ; 
+    font-size: 50px; 
+    color:gold; 
+}
+.aWhap2{
+    display: inline-flex;
+    width: 50px;
+}
+.whap2{ 
+    display: flex;
+    justify-content: end;
+    height: 50px; 
+    width: auto; 
+
+    border-radius: 8px;
+    
+}
+#barraNav{
+   
+    text-decoration-style: none;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+    
+}
+.barra{
+    display: flex; 
+    border-color: green;
+    color: rgb(170, 4, 4);
+    padding: 2px;
+    margin: 2px;
+    border-radius: 5px;
+    text-decoration-style: none;
+    list-style: none;
+    text-decoration-skip: none;
+}
+.barra:hover{
+    border-color: red;
+    background-color: lightgreen;
+    color: rgb(0, 0, 0);
+}
+
+.nav-link{
+    text-decoration-style: none;
+    list-style: none;
+
+}
+.fotoEscuela{
+    width: 200px;
+    height: auto;
+    align-self: center;
+}
+
+.sectionIndex{
+    background-image:url(../Imagenes/istockphoto-526831746-170667a.jpg);
+    color: white;
+}
+.frase{
+    display: inline-flex;
+    padding: 2px;
+    color: #000000;
+    background-color: rgb(255, 255, 0);
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 60%;
+    text-align: center;
+}
+.divFrase{
+    
+    align-content: center;
+}
+.categorias{
+    display: inline-flex;
+    text-align-last: center;
+    padding: 20px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: center;
+}
+.metodologia{
+    padding: 10px;
+    margin: 10px;
+    align-content: center;
+    
+}
+   
+.perSordas{
+    width: 100%;
+    display:flex;
+    text-align: center;
+}
+    
+#luYmati{
+    width: 50%;
+    
+}
+
+.lisTramites{
+    justify-content: center;
+    margin: 15px;
+    padding: 20px;
+    text-decoration-style: none;
+    list-style: none;
+}
+
+section{
+    align-content: center;
+    padding: 5px;
+}
+
+/* Nosotros */
+.divNos{
+    display:flex
+    
+}
+
+.h2Nos{
+    display: inline-block;
+    width: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    padding: 5px, 5px;
+    margin: 10px;
+    color: red;
+    
+}
+.imgNos{
+    display: flex;
+    height: 25%;
+    width: 25%;
+}
+.pNos{
+    display: flex;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 0);
+    padding: 20px;
+    margin: 10px;
+}
+
+/* Servicios */
+
+.contentServi{
+    background-color: black;
+}
+
+.h2Serv{
+    margin: 5px;
+    font-size: 30px;
+    color: white;
+}
+.h4Servi{
+    color: white;
+}
+/* Material */
+.contentMaterial{
+
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+}
+.imgMaterial{
+    display: flex;
+    width: 200px;
+    height: auto;
+}
+
+/* Preguntas Frecuentes */
+
+.preg{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 2px;
+    
+    color: black;
+    background-color:lightgreen;
+    
+}
+
+/* Footer */
+
+.Redes{
+    
+    background-color:gold; 
+   padding: 20px;
+}
+.logoFooter{
+    display: flex;
+    width: 100px;
+}
+.iconRedes{ 
+    display: flex;
+    width: 50px; 
+    height: auto; 
+    padding: 5px; 
+    margin: 2px;
+    border-radius: 5px;
+    list-style: none;
+    text-decoration-style: none;
+}
+.listRedes{
+    display:flex;
+    border-radius: 5px;
+    list-style: none;
+}
+.horario{
+    font-size: 20px;
+    color: #000;
+    
+}
+.ubicacion{ 
+    display: flex;
+    list-style: none;
+    text-decoration-style: none;
+    color: #000;
+    
+}
