@@ -36,11 +36,13 @@
     width: 50px;
 }
 .whap2{ 
-    display: flex;
+    display: inline-flex;
     justify-content: end;
     height: 50px; 
     width: auto; 
-
+    margin: 10px;
+    text-align: end;
+    position: sticky;
     border-radius: 8px;
     
 }
@@ -81,7 +83,7 @@
 }
 
 .sectionIndex{
-    background-image:url(../Img/istockphoto-526831746-170667a.jpg);
+    background-image:url(../img/istockphoto-526831746-170667a.jpg);
     color: white;
 }
 .frase{
