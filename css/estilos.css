@@ -81,7 +81,7 @@
 }
 
 .sectionIndex{
-    background-image:url(../Imagenes/istockphoto-526831746-170667a.jpg);
+    background-image:url(../Img/istockphoto-526831746-170667a.jpg);
     color: white;
 }
 .frase{
@@ -138,11 +138,11 @@ section{
 }
 
 /* Nosotros */
-.divNos{
-    display:flex
-    
-}
+ 
 
+.contentNos{
+    background-color: black;
+}
 .h2Nos{
     display: inline-block;
     width: 50px;
@@ -197,7 +197,9 @@ section{
 }
 
 /* Preguntas Frecuentes */
-
+.contentPreg{
+    background-color: black;
+}
 .preg{
     padding: 10px;
     margin: 5px;
