@@ -34,6 +34,8 @@
 .aWhap2{
     display: inline-flex;
     width: 50px;
+    text-decoration: none;
+    color: red;
 }
 .whap2{ 
     display: inline-flex;
@@ -42,13 +44,14 @@
     width: auto; 
     margin: 10px;
     text-align: end;
-    position: sticky;
+    position: fixed;
     border-radius: 8px;
-    
+    opacity: 0.8;
+    z-index: 5;
 }
 #barraNav{
    
-    text-decoration-style: none;
+    text-decoration: none;
     list-style: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(0, 0, 0);
@@ -58,24 +61,21 @@
     display: flex; 
     border-color: green;
     color: rgb(170, 4, 4);
-    padding: 2px;
-    margin: 2px;
+    padding: 5px;
+    margin: 5px;
     border-radius: 5px;
-    text-decoration-style: none;
+    text-decoration: none;
     list-style: none;
-    text-decoration-skip: none;
+   
 }
 .barra:hover{
-    border-color: red;
-    background-color: lightgreen;
+    
     color: rgb(0, 0, 0);
 }
 
-.nav-link{
-    text-decoration-style: none;
-    list-style: none;
 
-}
+
+
 .fotoEscuela{
     width: 200px;
     height: auto;
@@ -102,8 +102,9 @@
 }
 .categorias{
     display: inline-flex;
+    border: 2px solid goldenrod;
     text-align-last: center;
-    padding: 20px;
+    padding: 10px;
     margin: 10px;
     font-family: Arial, Helvetica, sans-serif;
     align-content: center;
@@ -184,9 +185,6 @@ section{
 .h4Servi{
     color: white;
 }
-.imgServ.{ size: 10px;;
-
-}
 /* Material */
 .contentMaterial{
 
@@ -253,3 +251,8 @@ section{
     color: #000;
     
 }
+/* 
+https://github.com/matiasrf28/proyecto-web.git
+
+
+ */
