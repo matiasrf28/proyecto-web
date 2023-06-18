@@ -1,1 +1,300 @@
-/*# sourceMappingURL=sass.css.map */
+/* Generico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Variables */
+header .encabezadoHome {
+  display: inline-block;
+  background-color: black;
+  width: 100%;
+}
+header .encabezadoHome .logo {
+  display: inline;
+  width: auto;
+  margin-left: 10px;
+  height: 100px;
+}
+header .encabezadoHome .tituloAvenida {
+  display: inline;
+  width: 300px;
+  margin: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 50px;
+  color: gold;
+}
+header .contenedor_img {
+  display: grid;
+  justify-self: end;
+  align-content: end;
+}
+header .contenedor_img .whap2 {
+  display: inline;
+  justify-self: end;
+  height: 50px;
+  width: auto;
+  margin: 10px;
+  opacity: 0.8;
+  border-radius: 8px;
+  position: fixed;
+  z-index: 5;
+}
+
+.hola {
+  background-color: rgb(2, 2, 2);
+  border: 1px solid gray;
+  border-radius: 8px;
+  width: 100%;
+  justify-content: center;
+}
+
+#barraNav {
+  text-decoration: none;
+  list-style: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(0, 0, 0);
+  justify-self: center;
+}
+
+.barra {
+  display: flex;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: rgb(120, 10, 10);
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  list-style: none;
+  -moz-text-align-last: center;
+       text-align-last: center;
+}
+
+.barra:hover {
+  color: grey;
+}
+
+.fotoEscuela {
+  width: 200px;
+  height: auto;
+  display: block;
+}
+
+.sectionIndex {
+  background-image: url(../imagenes/img-carretera.jpg);
+  opacity: 0.9;
+  color: white;
+  justify-content: center;
+}
+
+.frase {
+  display: grid;
+  justify-content: center;
+  padding: 2px;
+  color: #000000;
+  background-color: rgb(255, 255, 0);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.divFrase {
+  width: 75%;
+  display: inline;
+  justify-content: center;
+}
+
+.categorias {
+  display: inline-flex;
+  width: auto;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+  background-color: rgb(20, 20, 20);
+  border: solid 2px goldenrod;
+  border-radius: 8px;
+  opacity: 0.5;
+}
+
+.metodologia {
+  width: 450px;
+  display: inline-block;
+  height: auto;
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  background-color: black;
+  border: solid 2px rgb(141, 0, 0);
+  border-radius: 8px;
+  opacity: 0.8;
+}
+
+.perSordas {
+  width: 700px;
+  display: inline-flex;
+  height: auto;
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  background-color: black;
+  border: solid 2px darkblue;
+  border-radius: 8px;
+}
+
+#luYmati {
+  width: 50%;
+}
+
+.lisTramites {
+  display: inline-flex;
+  justify-content: center;
+  margin: 15px;
+  padding: 20px;
+  text-decoration-style: none;
+  list-style: none;
+  background-color: black;
+  border: solid 2px darkgreen;
+  border-radius: 8px;
+}
+
+section {
+  align-content: center;
+  padding: 5px;
+  background-color: black;
+  color: darkred;
+}
+
+/* Nosotros */
+.divNos {
+  display: grid;
+  background-color: black;
+}
+
+.h2Nos {
+  display: inline-block;
+  width: 50px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 30px;
+  padding: 5px, 5px;
+  margin: 10px;
+  color: red;
+}
+
+.imgNos {
+  display: flex;
+  height: 25%;
+  width: 25%;
+}
+
+.pNos {
+  display: flex;
+  color: rgb(50, 50, 50);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-radius: 8px;
+  background-color: rgb(0, 0, 0);
+  padding: 20px;
+  margin: 10px;
+}
+
+/* Servicios */
+.contentServi {
+  background-color: black;
+}
+
+.h2Serv {
+  margin: 5px;
+  font-size: 30px;
+  color: white;
+}
+
+.h4Servi {
+  color: white;
+}
+
+/* Material */
+.contentMaterial {
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+}
+
+.imgMaterial {
+  display: flex;
+  width: 200px;
+  height: auto;
+}
+
+/* Preguntas Frecuentes */
+.preg {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 2px solid;
+  background-color: #000;
+}
+
+.h2Preg {
+  color: darkred;
+  padding: 5px;
+  margin: 5px;
+}
+
+.h4Preg {
+  color: rgb(50, 50, 50);
+  padding: 5px;
+  margin: 5px;
+}
+
+/* Footer */
+.Redes {
+  height: 300px;
+  width: auto;
+  display: grid;
+  background-color: gold;
+}
+
+.ahola {
+  display: inline-block;
+}
+
+.logoFooter {
+  display: inline-block;
+  width: 100px;
+  padding: 5px;
+  margin: 2px;
+}
+
+.iconRedes {
+  display: inline-block;
+  width: 50px;
+  height: auto;
+  padding: 5px;
+  margin: 2px;
+  border-radius: 5px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.listRedes {
+  display: flex;
+  width: 300px;
+  border-radius: 5px;
+  list-style: none;
+}
+
+.horario {
+  font-size: 20px;
+  color: #000;
+}
+
+.ubicacion {
+  display: flex;
+  list-style: none;
+  text-decoration-style: none;
+  color: #000;
+}/*# sourceMappingURL=sass.css.map */

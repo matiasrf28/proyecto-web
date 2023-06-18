@@ -1,0 +1,16 @@
+/* Generico */
+* {margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+// Parciales //
+
+@import "vars";   // variables //
+@import "header"; // Encabezado generico //
+@import "inicio"; // Pagina inicio //
+@import "nosotros"; // Paginas nosotros // 
+@import "servicios"; // Pagina servicios //
+@import "material"; // Pagina material teorico //
+@import "preguntas"; // Pagina prefuntas frecientes //
+@import "footer"; // Estilos del footer generico //

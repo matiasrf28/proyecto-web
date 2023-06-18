@@ -1,0 +1,30 @@
+/* Nosotros */
+.divNos{
+    display:grid;
+    background-color: black;
+}
+
+.h2Nos{
+    display: inline-block;
+    width: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    padding: 5px, 5px;
+    margin: 10px;
+    color: red;
+    
+}
+.imgNos{
+    display: flex;
+    height: 25%;
+    width: 25%;
+}
+.pNos{
+    display: flex;
+    color: rgb(50, 50, 50);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 8px;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    margin: 10px;
+}

@@ -1,0 +1,47 @@
+/* Footer */
+
+.Redes{
+    height: 300px;
+    width: auto;
+    display: grid;
+    background-color:gold; 
+   
+}
+.ahola{
+    display: inline-block;
+    
+}
+.logoFooter{
+    display: inline-block;
+    width: 100px;
+    padding: 5px;
+    margin: 2px;
+}
+.iconRedes{ 
+    display: inline-block;
+    width: 50px; 
+    height: auto; 
+    padding: 5px; 
+    margin: 2px;
+    border-radius: 5px;
+    list-style: none;
+    text-decoration: none;
+}
+.listRedes{
+    display:flex;
+    width: 300px;
+    border-radius: 5px;
+    list-style: none;
+}
+.horario{
+    font-size: 20px;
+    color: #000;
+    
+}
+.ubicacion{ 
+    display: flex;
+    list-style: none;
+    text-decoration-style: none;
+    color: #000;
+    
+}
