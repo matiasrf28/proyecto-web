@@ -180,9 +180,9 @@ section {
   width: 50px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-size: 30px;
-  padding: 5px, 5px;
-  margin: 10px;
-  color: red;
+  padding: 5px;
+  margin: 5px;
+  color: darkred;
 }
 
 .imgNos {
@@ -197,28 +197,30 @@ section {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   border-radius: 8px;
   background-color: rgb(0, 0, 0);
-  padding: 20px;
+  padding: 10px;
   margin: 10px;
 }
 
 /* Servicios */
 .contentServi {
-  background-color: black;
+  background-color: rgb(17, 16, 16);
 }
 
 .h2Serv {
   margin: 5px;
   font-size: 30px;
-  color: white;
+  color: var(rgb(80, 10, 10));
 }
 
 .h4Servi {
-  color: white;
+  color: var(rgb(50, 50, 50));
 }
 
+/* Pasar a limpio las propiedades y valores en comun entre los content de Ser , Mat, Nos , Preg. 
+ */ /*  */
 /* Material */
 .contentMaterial {
-  background-color: black;
+  background-color: rgb(104, 29, 29);
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   display: grid;
@@ -255,7 +257,7 @@ section {
   height: 300px;
   width: auto;
   display: grid;
-  background-color: gold;
+  background-color: background-color rgb(218, 165, 32);
 }
 
 .ahola {
@@ -297,4 +299,4 @@ section {
   list-style: none;
   text-decoration-style: none;
   color: #000;
-}/*# sourceMappingURL=sass.css.map */
+}/*# sourceMappingURL=main.css.map */

@@ -1,14 +1,18 @@
 /* Servicios */
 
 .contentServi{
-    background-color: black;
+    background-color: rgb(17, 16, 16);
 }
 
 .h2Serv{
     margin: 5px;
     font-size: 30px;
-    color: white;
+
+color: var($color_letra1) ;
 }
 .h4Servi{
-    color: white;
+    color: (var($color_letra2));
 }
+
+/* Pasar a limpio las propiedades y valores en comun entre los content de Ser , Mat, Nos , Preg. 
+ *//*  */
