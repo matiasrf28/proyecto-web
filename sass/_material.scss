@@ -1,13 +1,15 @@
 /* Material */
 .contentMaterial{
 
-    background-color: rgb(104, 29, 29);
-    color: white;
+    background-color: $color_fondo1;
+    
+    color: $color_letra2;
     font-family: Arial, Helvetica, sans-serif;
     display: grid;
-}
-.imgMaterial{
-    display: flex;
-    width: 200px;
-    height: auto;
+
+    .imgMaterial{
+        display: flex;
+        width: 200px;
+        height: auto;
+    }
 }

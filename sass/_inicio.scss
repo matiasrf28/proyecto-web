@@ -1,95 +1,69 @@
-.fotoEscuela{
-    width: 200px;
-    height: auto;
-    display: block;
-}
+/* home */
 
 .sectionIndex{
-    background-image: url(../imagenes/img-carretera.jpg);
-    opacity: 0.9;
-    color: white;
-    
-    justify-content: center;
-}
-.frase{
+    width: max-content;
     display: grid;
-    justify-content: center;
-    padding: 2px;
-    color: #000000;
-    background-color: rgb(255, 255, 0);
-    
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
-    
-}
-.divFrase{
-    width: 75%;
-    display: inline;
-    justify-content:center;
-}
-.categorias{
-    display: inline-flex;
-    width: auto;
-    text-align: center;
-    padding: 10px;
-    margin: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    justify-content: center;
-    background-color: rgb(20, 20, 20);
-    border: solid 2px goldenrod ;
-    border-radius: 8px;
-    opacity: 0.5;
-
-}
-.metodologia{
-    width: 450px;
-    display: inline-block;
-    height: auto;
-    padding: 10px;
-    margin: 10px;
-    font-size: 20px;
-    text-align: center;
-    justify-content: center;
-    background-color: black;
-    border: solid 2px rgb(141, 0, 0);
-    border-radius: 8px;
-    opacity: 0.80;
-}
-   
-.perSordas{
-    width: 700px;
-    display: inline-flex;
-    height: auto;
-    padding: 10px;
-    margin: 10px;
-    font-size: 20px;
-    text-align: center;
-    justify-content: center;
-    background-color: black;
-    border: solid 2px darkblue;
-    border-radius: 8px;
-}
-    
-#luYmati{
-    width: 50%;
-    
-}
-
-.lisTramites{
-    display: inline-flex;
-    justify-content: center;
-    margin: 15px;
-    padding: 20px;
-    text-decoration-style: none;
-    list-style: none;
-    background-color: black;
-    border: solid 2px darkgreen;
-    border-radius: 8px;
-}
-
-section{
+    background-color: black ;
+    color: white;
     align-content: center;
-    padding: 5px;
-    background-color: black;
-    color: darkred;
+    padding: 5px; 
+
+    .textHome{
+
+       font-family: 'Bilbo', cursiva;
+       font-size: 35px;
+       
+       margin-left: 30px;
+       margin-top: 30px;
+    }
+
+      
+    .container{ 
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        background-color: black;
+        width: 100vmax;
+        .box{
+            display: flex;
+            @media (max-width: 768px)  { .box{ width: 100%;}}
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            width: 400px;
+            height: 350px;
+            margin: 20px;
+            padding: 10px;
+            color: white;
+            text-align: center;
+            border-radius: 20px;
+            background-color: black ;
+            border: 2px solid $color_border1;
+            align-items: center;
+            
+        }
+
+        
+    }
+    .divFrase{
+        width: 90%;
+        display: grid;
+        justify-content:center;
+
+        .frase{
+            display: inline-block;
+            justify-content: center;
+            padding: 2px;
+            color: black;
+            background-color: gold;
+            
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            
+            
+        }
+        
+   
+        
+    }
 }
+
+

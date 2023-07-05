@@ -1,85 +1,86 @@
+/* header */
 header{
+    display: grid;
+    background-color: $color_fondo1;
+    width: 100%;
+    
+    .contenedor_img{
+        display:flex;
+        padding-left: 50px;
+        padding-right: 100px;
+        padding-top: 50px;
+        justify-self: end;
+      .whap2{ 
+        display: flex;
+        justify-self: end;
+        height: 50px; 
+        width: auto; 
+        margin: 10px;
+        opacity:0.8;
+        border-radius: 8px;
+        position: fixed;
+        box-shadow: 3px 3px 2px;
+        z-index: 5;
+        }
+    }
     .encabezadoHome{
-        display: inline-block;
+        
         background-color: black;
         width: 100%; 
     
         .logo{
           display: inline;
           width:auto ;
-          margin-left: 10px;
+          margin: 15px;
           height: 100px; 
         }
         .tituloAvenida{
           display:inline;
           width: 300px;;
           margin: 20px;
-          font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ; 
+          
+          font-family : 'PT Sans', sans-serif;
+          
           font-size: 50px; 
           color:gold;
         }       
     
+        
     }
-    .contenedor_img{
-        display: grid;
-         justify-self: end;
-         align-content: end;
-      .whap2{ 
-           display: inline;
-         
-           justify-self: end;
-           height: 50px; 
-           width: auto; 
-           margin: 10px;
-           opacity:0.8;
-           border-radius: 8px;
-           position: fixed;
-           z-index: 5;
+ 
+    .navbar{
+        .nav_estilo{
+            background-color: $color_fondo1;
+            font-size: 25px;
         }
+        #barraNav{
+            display: grid;
+            
+            text-decoration: none;
+            list-style: none;
+            font-family: 'Mate', serif;
+            justify-self: end;
+         
+            .barra{
+                display: flex; 
+                background-color: $color_fondo1;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: 25px;
+                color: rgb(230, 90, 90);
+                padding: 10px;
+                margin: 10px;
+                
+                border-radius: 5px;
+                text-decoration: none;
+                list-style: none;
+                text-align:end
+            }
+            .barra:hover{
+                               
+                color: rgb(200, 200, 200);
+                border: 2px solid gray;
+            }
+        }   
     }
-}
-
-
-// terminar de trascribir a sass de aquie para abajo//
-
-
-
-
-
-
-
-
-.hola{
-    background-color:rgb(2, 2, 2);
-    border: 1px solid gray;
-    border-radius: 8px;
-    width: 100% ;
-    justify-content: center;
-}
-// elegir bien la paleta de colores , cambiar la clase hola  q este da wl color al Nav,  jugar tamb  cn la opacidad , (decimal hasta 1) //
-#barraNav{
-   
-    text-decoration: none;
-    list-style: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(0, 0, 0);
-    justify-self: center;
-    
-}
-.barra{
-    display: flex; 
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
-    color: rgb(120, 10, 10);
-    padding: 5px;
-    margin: 5px;
-    border-radius: 5px;
-    text-decoration: none;
-    list-style: none;
-    text-align-last: center;
-}
-.barra:hover{
-    
-    
-    color: grey;
 }
 

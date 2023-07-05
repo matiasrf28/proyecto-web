@@ -3,19 +3,26 @@
 .preg{
     padding: 10px;
     margin: 5px;
-    border-radius: 2px solid;
-    background-color: #000;
-   
+    border-radius: 8px;
+    background-color: $color_fondo1;
+
     
-}
-.h2Preg{
-    color: darkred;
-    padding: 5px;
-    margin: 5px;
-}
-.h4Preg{
-    color: rgb(50, 50, 50);
+    .h2Preg{
+        color: rgb(40, 185, 40);
+        padding: 5px;
+        margin: 5px;
+        
+        
+    }
+    .h4Preg{
+        color:white;
+        font-size: 20px;
+        padding: 5px;
+        margin: 5px;
+    }
+    .p-text__preg {
+        @include p-text;
+        font-size: 25px;
+    }
     
-    padding: 5px;
-    margin: 5px;
 }

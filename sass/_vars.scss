@@ -1,6 +1,27 @@
 /* Variables */
-$color_letra1: rgb(80, 10, 10);
-$color_letra2: rgb(50, 50, 50);
-$color_fondo1: background-color rgb(20, 20, 20);
-$color_fondo2: background-color rgb(218, 165, 32);
-$color_border1: rgb(140, 0, 0,);
+
+$color_letra1: rgb(150, 40, 40);
+$color_letra2: white;
+$color_fondo1: black;
+$color_fondo2:gold;
+$color_border1: rgb(0, 140, 23);
+
+.h1_pages{
+    font-size: 40px;
+    font-family: cursive;
+    padding: 20px;
+    color: grey;
+    text-align: start;
+
+}
+
+@mixin p-text{
+    
+    color: $color_letra2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    margin: 10px;
+}
+

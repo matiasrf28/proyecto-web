@@ -2,46 +2,51 @@
 
 .Redes{
     height: 300px;
-    width: auto;
+    width: 100vmax;
     display: grid;
-    background-color:$color_fondo2; 
-   
+    background-color: $color_fondo2;
+    padding: 10px;
+
+    .logoFooter{
+        display: inline-block;
+        width: 100px;
+        padding: 5px;
+        margin: 2px;
+    }
+    .listRedes{
+        display:flex;
+        width: 300px;
+        border-radius: 5px;
+        list-style: none;
+
+        .iconRedes{ 
+            display: inline-block;
+            width: 50px; 
+            height: auto; 
+            padding: 5px; 
+            margin: 2px;
+            border-radius: 5px;
+            list-style: none;
+            text-decoration: none;
+        
+        }
+    }
+    .horario{
+        font-size: 20px;
+        color: #000;
+        padding: 10px;
+    }
+    .ubicacion{ 
+        display: flex;
+        list-style: none;
+        text-decoration-style: none;
+        color: #000;
+        padding: 10px;
+    }
 }
-.ahola{
-    display: inline-block;
-    
-}
-.logoFooter{
-    display: inline-block;
-    width: 100px;
-    padding: 5px;
-    margin: 2px;
-}
-.iconRedes{ 
-    display: inline-block;
-    width: 50px; 
-    height: auto; 
-    padding: 5px; 
-    margin: 2px;
-    border-radius: 5px;
-    list-style: none;
-    text-decoration: none;
-}
-.listRedes{
-    display:flex;
-    width: 300px;
-    border-radius: 5px;
-    list-style: none;
-}
-.horario{
-    font-size: 20px;
-    color: #000;
-    
-}
-.ubicacion{ 
-    display: flex;
-    list-style: none;
-    text-decoration-style: none;
-    color: #000;
-    
-}
+
+
+
+
+
+
